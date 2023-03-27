@@ -1,0 +1,30 @@
+{
+  "name": "animal-rescue",
+  "version": "1.0.0",
+  "description": "My express mongodb mongoos rest api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/In-Wess-Tation/animal-rescue.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/In-Wess-Tation/animal-rescue/issues"
+  },
+  "homepage": "https://github.com/In-Wess-Tation/animal-rescue#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
