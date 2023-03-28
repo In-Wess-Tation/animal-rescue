@@ -9,7 +9,11 @@ const app = express();
 //import db-connection
 require("./database")
 
+//accept request from anywhere
 app.use(cors());
+
+//expect incomming data to be json 
+app.use(express.json());
 
 //routes 
 app.use("/api/v1", animals);
