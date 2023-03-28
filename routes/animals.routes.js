@@ -14,7 +14,7 @@ router.get("/animals", async function(request, response, next) {
 })
 
 //get single animal by id
-router.get("/animals/:id", auth, async function(request, response, next) {
+router.get("/animals/:id", async function(request, response, next) {
     try {
         let result = await Animal.findById(request.params.id);
         return response.status(200).json(result)

@@ -9,6 +9,9 @@ const app = express();
 //import db-connection
 require("./database")
 
+//serve docs
+app.use("/", express.static("docs"))
+
 //accept request from anywhere
 app.use(cors());
 
